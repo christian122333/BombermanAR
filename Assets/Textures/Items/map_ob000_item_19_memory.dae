@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Hallow</author>
+      <authoring_tool>Blender 2.77.0 commit date:2016-03-18, commit time:12:34, hash:22a2853</authoring_tool>
+    </contributor>
+    <created>2017-12-21T12:29:35</created>
+    <modified>2017-12-21T12:29:35</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="map_ob000_item_AL_png" name="map_ob000_item_AL_png">
+      <init_from>map_ob000_item_AL.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="mat_map_ob000_item_008-effect">
+      <profile_COMMON>
+        <newparam sid="map_ob000_item_AL_png-surface">
+          <surface type="2D">
+            <init_from>map_ob000_item_AL_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="map_ob000_item_AL_png-sampler">
+          <sampler2D>
+            <source>map_ob000_item_AL_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="map_ob000_item_AL_png-sampler" texcoord="GeometrySource2"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">0</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="mat_map_ob000_item_008-material" name="mat_map_ob000_item_008">
+      <instance_effect url="#mat_map_ob000_item_008-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="map_ob000_item_19_memory_001-mesh" name="map_ob000_item_19_memory.001">
+      <mesh>
+        <source id="map_ob000_item_19_memory_001-mesh-positions">
+          <float_array id="map_ob000_item_19_memory_001-mesh-positions-array" count="234">0.189656 0.771255 0.300511 0.302875 0.728615 0.183037 0.189656 0.808672 0.263094 0.302875 0.691198 0.220454 -0.297183 0.245067 -0.300511 -0.297183 0.478244 0.007499992 -0.297183 0.515661 -0.02991598 -0.297183 0.20765 -0.263094 -0.297183 0.771255 0.300511 0.189656 0.808672 0.263094 -0.297183 0.808672 0.263094 0.189656 0.771255 0.300511 0.302875 0.632545 0.08696699 0.27403 0.595128 0.1243849 0.27403 0.632545 0.08696699 0.302875 0.595128 0.1243849 -0.297183 0.245067 -0.300511 0.302875 0.20765 -0.263094 -0.297183 0.20765 -0.263094 0.302875 0.245067 -0.300511 0.27403 0.632545 0.08696699 0.27403 0.556701 0.08595597 0.27403 0.594118 0.04853898 0.27403 0.595128 0.1243849 0.27403 0.594118 0.04853898 0.302875 0.556701 0.08595597 0.302875 0.594118 0.04853898 0.27403 0.556701 0.08595597 -0.297183 0.515661 -0.02991598 -0.251896 0.478244 0.007499992 -0.251896 0.515661 -0.02991598 -0.297183 0.478244 0.007499992 0.189656 0.771255 0.300511 0.302875 0.595128 0.1243849 0.302875 0.691198 0.220454 0.27403 0.595128 0.1243849 -0.251896 0.540861 0.07011699 -0.251896 0.478244 0.007499992 0.27403 0.556701 0.08595597 -0.297183 0.771255 0.300511 -0.297184 0.555828 0.08508396 0.302875 0.20765 -0.263094 0.302875 0.556701 0.08595597 -0.297183 0.20765 -0.263094 -0.297183 0.478244 0.007499992 0.302875 0.245067 -0.300511 0.302875 0.556701 0.08595597 0.302875 0.20765 -0.263094 0.302875 0.594118 0.04853898 -0.297183 0.593245 0.04766696 -0.251896 0.540861 0.07011699 -0.297184 0.555828 0.08508396 -0.251896 0.578278 0.0327 -0.297183 0.808672 0.263094 -0.297184 0.555828 0.08508396 -0.297183 0.771255 0.300511 -0.297183 0.593245 0.04766696 -0.251896 0.515661 -0.02991598 -0.251896 0.540861 0.07011699 -0.251896 0.578278 0.0327 -0.251896 0.478244 0.007499992 0.302875 0.728615 0.183037 0.302875 0.595128 0.1243849 0.302875 0.632545 0.08696699 0.302875 0.691198 0.220454 0.189656 0.808672 0.263094 0.302875 0.632545 0.08696699 0.27403 0.632545 0.08696699 0.302875 0.728615 0.183037 -0.251896 0.578278 0.0327 -0.251896 0.515661 -0.02991598 0.27403 0.594118 0.04853898 -0.297183 0.808672 0.263094 -0.297183 0.593245 0.04766696 0.302875 0.245067 -0.300511 0.302875 0.594118 0.04853898 -0.297183 0.245067 -0.300511 -0.297183 0.515661 -0.02991598</float_array>
+          <technique_common>
+            <accessor source="#map_ob000_item_19_memory_001-mesh-positions-array" count="78" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="map_ob000_item_19_memory_001-mesh-normals">
+          <float_array id="map_ob000_item_19_memory_001-mesh-normals-array" count="138">0.707103 0.500003 0.5000025 0.7071022 0.5000028 0.5000038 -1 -3.67941e-7 0 -1 0 0 0 0.7071064 0.7071072 0 0.7071076 0.7071061 0 -0.7071171 -0.7070964 0 -0.707116 -0.7070977 0 -0.7071063 -0.7071073 0 -0.707107 -0.7071066 1 0 0 0 0.707108 0.7071056 0 0.7071049 0.7071086 0 0.7070971 0.7071166 0 0.7070975 0.7071161 5.32799e-6 -0.7071034 0.7071102 0 -0.707105 0.7071086 -1.68009e-6 -0.7071051 0.7071085 -1.3798e-6 -0.7071066 0.707107 6.81019e-6 -0.7071257 0.7070879 0 -0.707107 0.7071066 5.39997e-7 -0.7071072 0.7071065 1.02234e-6 -0.7071057 0.7071079 0 -0.707106 0.7071076 0 -0.7071067 0.7071068 0 -0.7071071 0.7071065 1 5.7047e-7 0 1 -4.27853e-7 0 -0.4234136 -0.6405896 -0.6405981 -0.4234199 -0.640591 -0.6405925 -1 2.77295e-6 2.28263e-6 -1 1.37492e-5 -1.31421e-5 -1 3.97505e-7 0 -1 -7.95014e-7 0 1 5.18165e-7 0 0 0.7071068 -0.7071068 0 0.7071065 -0.7071072 0 0.707107 -0.7071066 1.18984e-6 0.707101 -0.7071127 -5.42541e-6 0.7071154 -0.7070982 0 0.707107 -0.7071066 -5.40009e-7 0.7071067 -0.707107 -2.32951e-6 0.7071058 -0.7071079 0 0.707106 -0.7071077 0 0.7071081 -0.7071055 0 0.7071083 -0.7071053</float_array>
+          <technique_common>
+            <accessor source="#map_ob000_item_19_memory_001-mesh-normals-array" count="46" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="map_ob000_item_19_memory_001-mesh-map">
+          <float_array id="map_ob000_item_19_memory_001-mesh-map-array" count="288">0.858585 0.07215499 0.871085 0.03196299 0.871085 0.07215398 0.858585 0.07215499 0.858585 0.03196299 0.871085 0.03196299 0.871085 0.243333 0.858585 0.130336 0.871085 0.130336 0.871085 0.243333 0.858585 0.243333 0.858585 0.130336 0.858585 0.215909 0.871085 0.07215398 0.871085 0.215909 0.858585 0.215909 0.858585 0.07215499 0.871085 0.07215398 0.871085 0.179484 0.858585 0.174885 0.871085 0.174885 0.871085 0.179484 0.858585 0.179484 0.858585 0.174885 0.871085 0.04050195 0.858585 0.217688 0.858585 0.04050195 0.871085 0.04050195 0.871085 0.217688 0.858585 0.217688 0.871085 0.174885 0.858585 0.158838 0.871085 0.158838 0.871085 0.174885 0.858585 0.174885 0.858585 0.158838 0.871085 0.158838 0.858585 0.158838 0.871085 0.158838 0.871085 0.158838 0.858585 0.158838 0.858585 0.158838 0.871085 0.130336 0.858585 0.117262 0.871085 0.117262 0.871085 0.130336 0.858585 0.130336 0.858585 0.117262 0.784475 0.2452279 0.767759 0.171679 0.767759 0.2117969 0.784475 0.2452279 0.772018 0.171679 0.767759 0.171679 0.849665 0.149018 0.772018 0.171679 0.784475 0.2452279 0.849665 0.12287 0.772018 0.171679 0.849665 0.149018 0.849665 0.12287 0.772018 0.155632 0.772018 0.171679 0.849665 0.149018 0.784475 0.2452279 0.856352 0.2452279 0.849665 0.149018 0.856352 0.2452279 0.856352 0.155268 0.767759 0.009871959 0.772018 0.155632 0.849665 0.12287 0.767759 0.009871959 0.767759 0.155632 0.772018 0.155632 0.767759 0.009871959 0.849665 0.12287 0.856352 0.009871959 0.856352 0.009871959 0.849665 0.12287 0.856352 0.12287 0.871085 0.01307797 0.858585 0.158838 0.858585 0.01307797 0.871085 0.01307797 0.871085 0.158838 0.858585 0.158838 0.871085 0.09285598 0.858585 0.104188 0.858585 0.09285598 0.871085 0.09285598 0.871085 0.104188 0.858585 0.104188 0.871085 0.007976949 0.858585 0.09285598 0.858585 0.007976949 0.871085 0.007976949 0.871085 0.09285598 0.858585 0.09285598 0.871085 0.117262 0.858585 0.104188 0.871085 0.104188 0.871085 0.117262 0.858585 0.117262 0.858585 0.104188 0.871085 0.214465 0.858585 0.179484 0.871085 0.179484 0.871085 0.214465 0.858585 0.214465 0.858585 0.179484 0.784475 0.2452279 0.767759 0.171679 0.772018 0.171679 0.784475 0.2452279 0.767759 0.2117969 0.767759 0.171679 0.849665 0.149018 0.784475 0.2452279 0.772018 0.171679 0.849665 0.12287 0.849665 0.149018 0.772018 0.171679 0.849665 0.12287 0.772018 0.171679 0.772018 0.155632 0.849665 0.149018 0.856352 0.2452279 0.784475 0.2452279 0.849665 0.149018 0.856352 0.155268 0.856352 0.2452279 0.767759 0.009871959 0.849665 0.12287 0.772018 0.155632 0.767759 0.009871959 0.772018 0.155632 0.767759 0.155632 0.767759 0.009871959 0.856352 0.009871959 0.849665 0.12287 0.856352 0.009871959 0.856352 0.12287 0.849665 0.12287</float_array>
+          <technique_common>
+            <accessor source="#map_ob000_item_19_memory_001-mesh-map-array" count="144" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="map_ob000_item_19_memory_001-mesh-vertices">
+          <input semantic="POSITION" source="#map_ob000_item_19_memory_001-mesh-positions"/>
+        </vertices>
+        <polylist material="mat_map_ob000_item_008-material" count="48">
+          <input semantic="VERTEX" source="#map_ob000_item_19_memory_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#map_ob000_item_19_memory_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#map_ob000_item_19_memory_001-mesh-map" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 1 0 1 2 0 2 0 1 3 3 1 4 1 1 5 4 2 6 5 2 7 6 2 8 4 3 9 7 3 10 5 3 11 8 4 12 9 4 13 10 4 14 8 5 15 11 5 16 9 5 17 12 6 18 13 6 19 14 6 20 12 7 21 15 7 22 13 7 23 16 8 24 17 8 25 18 8 26 16 9 27 19 9 28 17 9 29 20 10 30 21 10 31 22 10 32 20 10 33 23 10 34 21 10 35 24 11 36 25 11 37 26 11 38 24 12 39 27 12 40 25 12 41 28 13 42 29 13 43 30 13 44 28 14 45 31 14 46 29 14 47 32 15 48 33 15 49 34 15 50 32 16 51 35 16 52 33 16 53 36 17 54 35 17 55 32 17 56 37 18 57 35 18 58 36 18 59 37 19 60 38 19 61 35 19 62 36 20 63 32 20 64 39 20 65 36 21 66 39 21 67 40 21 68 41 22 69 38 22 70 37 22 71 41 23 72 42 23 73 38 23 74 41 24 75 37 24 76 43 24 77 43 25 78 37 25 79 44 25 80 45 26 81 46 26 82 47 26 83 45 27 84 48 27 85 46 27 86 49 28 87 50 28 88 51 28 89 49 29 90 52 29 91 50 29 92 53 30 93 54 30 94 55 30 95 53 31 96 56 31 97 54 31 98 57 32 99 58 32 100 59 32 101 57 33 102 60 33 103 58 33 104 61 34 105 62 34 106 63 34 107 61 10 108 64 10 109 62 10 110 65 35 111 66 35 112 67 35 113 65 36 114 68 36 115 66 36 116 69 37 117 65 37 118 67 37 119 70 38 120 69 38 121 67 38 122 70 39 123 67 39 124 71 39 125 69 40 126 72 40 127 65 40 128 69 41 129 73 41 130 72 41 131 74 42 132 70 42 133 71 42 134 74 43 135 71 43 136 75 43 137 74 44 138 76 44 139 70 44 140 76 45 141 77 45 142 70 45 143</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_map_ob000_item_19_memory-skin" name="Armature">
+      <skin source="#map_ob000_item_19_memory_001-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature_map_ob000_item_19_memory-skin-joints">
+          <Name_array id="Armature_map_ob000_item_19_memory-skin-joints-array" count="1">map_ob000_item_19_memory</Name_array>
+          <technique_common>
+            <accessor source="#Armature_map_ob000_item_19_memory-skin-joints-array" count="1" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_map_ob000_item_19_memory-skin-bind_poses">
+          <float_array id="Armature_map_ob000_item_19_memory-skin-bind_poses-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_map_ob000_item_19_memory-skin-bind_poses-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_map_ob000_item_19_memory-skin-weights">
+          <float_array id="Armature_map_ob000_item_19_memory-skin-weights-array" count="78">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_map_ob000_item_19_memory-skin-weights-array" count="78" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature_map_ob000_item_19_memory-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature_map_ob000_item_19_memory-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="78">
+          <input semantic="JOINT" source="#Armature_map_ob000_item_19_memory-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature_map_ob000_item_19_memory-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0 12 0 13 0 14 0 15 0 16 0 17 0 18 0 19 0 20 0 21 0 22 0 23 0 24 0 25 0 26 0 27 0 28 0 29 0 30 0 31 0 32 0 33 0 34 0 35 0 36 0 37 0 38 0 39 0 40 0 41 0 42 0 43 0 44 0 45 0 46 0 47 0 48 0 49 0 50 0 51 0 52 0 53 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0 61 0 62 0 63 0 64 0 65 0 66 0 67 0 68 0 69 0 70 0 71 0 72 0 73 0 74 0 75 0 76 0 77</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Default" name="Default">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="map_ob000_item_19_memory" name="map_ob000_item_19_memory" sid="map_ob000_item_19_memory" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="map_ob000_item_19_memory" name="map_ob000_item_19_memory" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature_map_ob000_item_19_memory-skin">
+          <skeleton>#map_ob000_item_19_memory</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mat_map_ob000_item_008-material" target="#mat_map_ob000_item_008-material">
+                <bind_vertex_input semantic="GeometrySource2" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Default"/>
+  </scene>
+</COLLADA>

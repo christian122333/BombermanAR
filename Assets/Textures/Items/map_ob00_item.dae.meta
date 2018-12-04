@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: dc7cb65f3f98d8d4694bfa199530fadf
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: map_ob000_item_01_fireup
+    100004: map_ob000_item_01_fireup 1
+    100006: map_ob000_item_02_bombup
+    100008: map_ob000_item_02_bombup 1
+    100010: map_ob000_item_03_speedup
+    100012: map_ob000_item_03_speedup 1
+    100014: map_ob000_item_04_firedown
+    100016: map_ob000_item_04_firedown 1
+    100018: map_ob000_item_05_bombdown
+    100020: map_ob000_item_05_bombdown 1
+    100022: map_ob000_item_06_speeddown
+    100024: map_ob000_item_06_speeddown 1
+    100026: map_ob000_item_07_punch
+    100028: map_ob000_item_07_punch 1
+    100030: map_ob000_item_08_powerglove
+    100032: map_ob000_item_08_powerglove 1
+    100034: map_ob000_item_09_kick
+    100036: map_ob000_item_09_kick 1
+    100038: map_ob000_item_10_skull
+    100040: map_ob000_item_10_skull 1
+    100042: map_ob000_item_11_remote
+    100044: map_ob000_item_11_remote 1
+    100046: map_ob000_item_12_penetrationbomb
+    100048: map_ob000_item_12_penetrationbomb 1
+    100050: map_ob000_item_13_bombthrough
+    100052: map_ob000_item_13_bombthrough 1
+    100054: map_ob000_item_14_wallthrough
+    100056: map_ob000_item_14_wallthrough 1
+    100058: map_ob000_item_15_boyoyonbomb
+    100060: map_ob000_item_15_boyoyonbomb 1
+    100062: map_ob000_item_16_heart
+    100064: map_ob000_item_16_heart 1
+    100066: map_ob000_item_17_powerbomb
+    100068: map_ob000_item_17_powerbomb 1
+    100070: map_ob000_item_18_fullfire
+    100072: map_ob000_item_18_fullfire 1
+    100074: //RootNode
+    400000: Armature
+    400002: map_ob000_item_01_fireup
+    400004: map_ob000_item_01_fireup 1
+    400006: map_ob000_item_02_bombup
+    400008: map_ob000_item_02_bombup 1
+    400010: map_ob000_item_03_speedup
+    400012: map_ob000_item_03_speedup 1
+    400014: map_ob000_item_04_firedown
+    400016: map_ob000_item_04_firedown 1
+    400018: map_ob000_item_05_bombdown
+    400020: map_ob000_item_05_bombdown 1
+    400022: map_ob000_item_06_speeddown
+    400024: map_ob000_item_06_speeddown 1
+    400026: map_ob000_item_07_punch
+    400028: map_ob000_item_07_punch 1
+    400030: map_ob000_item_08_powerglove
+    400032: map_ob000_item_08_powerglove 1
+    400034: map_ob000_item_09_kick
+    400036: map_ob000_item_09_kick 1
+    400038: map_ob000_item_10_skull
+    400040: map_ob000_item_10_skull 1
+    400042: map_ob000_item_11_remote
+    400044: map_ob000_item_11_remote 1
+    400046: map_ob000_item_12_penetrationbomb
+    400048: map_ob000_item_12_penetrationbomb 1
+    400050: map_ob000_item_13_bombthrough
+    400052: map_ob000_item_13_bombthrough 1
+    400054: map_ob000_item_14_wallthrough
+    400056: map_ob000_item_14_wallthrough 1
+    400058: map_ob000_item_15_boyoyonbomb
+    400060: map_ob000_item_15_boyoyonbomb 1
+    400062: map_ob000_item_16_heart
+    400064: map_ob000_item_16_heart 1
+    400066: map_ob000_item_17_powerbomb
+    400068: map_ob000_item_17_powerbomb 1
+    400070: map_ob000_item_18_fullfire
+    400072: map_ob000_item_18_fullfire 1
+    400074: //RootNode
+    2100000: mat_map_ob000_item_007
+    4300000: map_ob000_item_08_powerglove
+    4300002: map_ob000_item_03_speedup
+    4300004: map_ob000_item_11_remote
+    4300006: map_ob000_item_05_bombdown
+    4300008: map_ob000_item_16_heart
+    4300010: map_ob000_item_02_bombup
+    4300012: map_ob000_item_17_powerbomb
+    4300014: map_ob000_item_14_wallthrough
+    4300016: map_ob000_item_10_skull
+    4300018: map_ob000_item_04_firedown
+    4300020: map_ob000_item_01_fireup
+    4300022: map_ob000_item_07_punch
+    4300024: map_ob000_item_13_bombthrough
+    4300026: map_ob000_item_15_boyoyonbomb
+    4300028: map_ob000_item_09_kick
+    4300030: map_ob000_item_06_speeddown
+    4300032: map_ob000_item_12_penetrationbomb
+    4300034: map_ob000_item_18_fullfire
+    9500000: //RootNode
+    13700000: map_ob000_item_01_fireup
+    13700002: map_ob000_item_02_bombup
+    13700004: map_ob000_item_03_speedup
+    13700006: map_ob000_item_04_firedown
+    13700008: map_ob000_item_05_bombdown
+    13700010: map_ob000_item_06_speeddown
+    13700012: map_ob000_item_07_punch
+    13700014: map_ob000_item_08_powerglove
+    13700016: map_ob000_item_09_kick
+    13700018: map_ob000_item_10_skull
+    13700020: map_ob000_item_11_remote
+    13700022: map_ob000_item_12_penetrationbomb
+    13700024: map_ob000_item_13_bombthrough
+    13700026: map_ob000_item_14_wallthrough
+    13700028: map_ob000_item_15_boyoyonbomb
+    13700030: map_ob000_item_16_heart
+    13700032: map_ob000_item_17_powerbomb
+    13700034: map_ob000_item_18_fullfire
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
